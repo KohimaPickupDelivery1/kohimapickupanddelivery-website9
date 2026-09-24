@@ -1,0 +1,9 @@
+{
+  "name": "kpd-delivery-v2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "KPD Delivery V2 - mobile-first delivery website with booking, WhatsApp orders, tracking and admin dashboard",
+  "main": "server.js",
+  "scripts": {"start":"node server.js","dev":"node server.js"},
+  "dependencies": {"express":"^4.21.2"}
+}

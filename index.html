@@ -1,77 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="KPD Delivery — fast, reliable local parcel delivery in Kohima and selected routes.">
-<title>KPD Delivery | Fast Delivery in Kohima</title>
-<style>
-:root{--bg:#090909;--card:#121212;--gold:#d4af37;--gold2:#f1d56a;--text:#f7f7f7;--muted:#b8b8b8;--line:#272727}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5}
-a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 20px}
-nav{position:sticky;top:0;z-index:20;background:rgba(9,9,9,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px}
-.mark{width:38px;height:38px;border-radius:10px;background:var(--gold);color:#090909;display:grid;place-items:center;font-weight:950;font-size:14px}
-.links{display:flex;gap:24px;color:#ddd;font-size:14px}.links a:hover{color:var(--gold2)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 18px;border-radius:10px;font-weight:750;border:1px solid var(--gold);transition:.2s}
-.btn.primary{background:var(--gold);color:#090909}.btn.primary:hover{background:var(--gold2);transform:translateY(-1px)}
-.btn.ghost{color:var(--gold)}.btn.ghost:hover{background:#17140a}
-.hero{padding:92px 0 70px;background:radial-gradient(circle at 80% 10%,rgba(212,175,55,.14),transparent 35%)}
-.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}
-.eyebrow{color:var(--gold);font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
-h1{font-size:clamp(42px,7vw,76px);line-height:1.02;margin:14px 0 20px;letter-spacing:-2px}
-.lead{font-size:19px;color:var(--muted);max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.hero-card{border:1px solid #3a3119;background:linear-gradient(145deg,#17140b,#0e0e0e);border-radius:22px;padding:28px;box-shadow:0 20px 70px rgba(0,0,0,.35)}
-.bigmark{height:220px;border-radius:18px;background:#0a0a0a;display:grid;place-items:center;border:1px solid #292929}.bigmark span{font-size:68px;font-weight:950;color:var(--gold);letter-spacing:8px}
-section{padding:76px 0}.section-title{font-size:34px;margin:0 0 10px}.section-sub{color:var(--muted);margin:0 0 30px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}.icon{font-size:27px}.card h3{margin:12px 0 7px}.card p{color:var(--muted);margin:0}
-.rate{display:flex;justify-content:space-between;padding:16px 0;border-bottom:1px solid var(--line)}.rate:last-child{border:0}.rate b{color:var(--gold)}
-.cta{background:linear-gradient(120deg,#181307,#0e0e0e);border:1px solid #3b321a;border-radius:22px;padding:38px;display:flex;justify-content:space-between;align-items:center;gap:24px}
-footer{border-top:1px solid var(--line);padding:30px 0;color:#8f8f8f;font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:20px}
-@media(max-width:760px){.links{display:none}.hero{padding-top:65px}.hero-grid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.cta{flex-direction:column;align-items:flex-start}.hero-card{display:none}.footer-row{flex-direction:column}}
-</style>
-</head>
-<body>
-<nav><div class="wrap nav">
-<a class="brand" href="#"><span class="mark">KPD</span><span>KPD Delivery</span></a>
-<div class="links"><a href="#services">Services</a><a href="#rates">Rates</a><a href="#about">About</a></div>
-<a class="btn primary" href="https://wa.me/918416005303?text=Hello%20KPD%20Delivery!%20I%20want%20to%20book%20a%20delivery.">Book Now</a>
-</div></nav>
-
-<header class="hero"><div class="wrap hero-grid">
-<div>
-<div class="eyebrow">Kohima • Local Delivery</div>
-<h1>Fast. Simple.<br><span style="color:var(--gold)">Delivered.</span></h1>
-<p class="lead">KPD Delivery helps customers and local businesses move parcels quickly across Kohima and selected routes — with easy booking through WhatsApp.</p>
-<div class="actions">
-<a class="btn primary" href="https://wa.me/918416005303?text=Hello%20KPD%20Delivery!%20I%20want%20to%20book%20a%20delivery.">📦 Book a Delivery</a>
-<a class="btn ghost" href="#rates">View Rate Card</a>
-</div>
-</div>
-<div class="hero-card"><div class="bigmark"><span>KPD</span></div><p style="color:var(--muted);margin:18px 0 0">24/7 availability subject to route and pickup availability.</p></div>
-</div></header>
-
-<section id="services"><div class="wrap">
-<h2 class="section-title">What we deliver</h2><p class="section-sub">Built for customers, shops, restaurants and local businesses.</p>
-<div class="grid">
-<div class="card"><div class="icon">📦</div><h3>Parcel Delivery</h3><p>Local pickup and drop-off for parcels and packages.</p></div>
-<div class="card"><div class="icon">🏪</div><h3>Business Orders</h3><p>Delivery support for Kohima shops, restaurants and small businesses.</p></div>
-<div class="card"><div class="icon">🛵</div><h3>Same-Day Routes</h3><p>Fast delivery options depending on route, distance and availability.</p></div>
-</div></div></section>
-
-<section id="rates"><div class="wrap">
-<h2 class="section-title">Rate card</h2><p class="section-sub">Final charges can vary by distance, package and route.</p>
-<div class="card">
-<div class="rate"><span>Local delivery</span><b>Contact KPD</b></div>
-<div class="rate"><span>Kohima ↔ Dimapur</span><b>Contact KPD</b></div>
-<div class="rate"><span>Business bulk orders</span><b>Custom quote</b></div>
-<div class="rate"><span>Farther / special routes</span><b>Custom quote</b></div>
-</div></div></section>
-
-<section id="about"><div class="wrap">
-<div class="cta"><div><div class="eyebrow">Ready to send?</div><h2 style="margin:8px 0 6px;font-size:32px">Book KPD Delivery on WhatsApp.</h2><p style="margin:0;color:var(--muted)">WhatsApp: +91 84160 05303</p></div>
-<a class="btn primary" href="https://wa.me/918416005303?text=Hello%20KPD%20Delivery!%20I%20have%20a%20delivery%20enquiry.">💬 WhatsApp KPD</a></div>
-</div></section>
-
-<footer><div class="wrap footer-row"><span>© 2026 KPD Delivery. All rights reserved.</span><span>Kohima, Nagaland • Local delivery service</span></div></footer>
-</body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090909"><meta name="description" content="KPD Delivery - fast, simple local delivery"><title>KPD Delivery | Fast delivery. Handled with care.</title><link rel="stylesheet" href="/style.css"></head><body>
+<header class="top"><a class="brand" href="#home"><span>KPD</span><b>DELIVERY</b></a><button class="menu" onclick="document.body.classList.toggle('nav-open')">☰</button><nav><a href="#services">Services</a><a href="#how">How it works</a><a href="#partners">Partners</a><a href="#track">Track</a><a href="#contact">Contact</a></nav></header>
+<main id="home">
+<section class="hero"><div class="badge">LOCAL DELIVERY • KOHIMA</div><h1>Fast delivery.<br><span>Handled with care.</span></h1><p>Parcel, food, shop orders and documents delivered from pickup to doorstep. Tell us the route and we’ll confirm the quote before delivery.</p><div class="actions"><a class="btn primary" href="#book">Book a delivery</a><a class="btn secondary" id="heroWa" href="#">WhatsApp KPD</a><a class="btn ghost" href="tel:+918416005303">Call KPD</a></div><div class="trust"><span>✓ Quote before delivery</span><span>✓ Distance-based pricing</span><span>✓ WhatsApp confirmation</span></div></section>
+<section class="section" id="book"><div class="section-head"><span class="eyebrow">01 • BOOK</span><h2>Send delivery details</h2><p>There are no fixed-rate cards. Your quote depends on the route and distance.</p></div><div class="grid two"><form class="card form" id="orderForm"><div class="grid two"><label>Name<input name="name" required placeholder="Your name"></label><label>Phone<input name="phone" required type="tel" placeholder="10-digit number"></label></div><label>Pickup location<input name="pickup" required placeholder="Pickup address / landmark"></label><label>Delivery location<input name="drop" required placeholder="Delivery address / landmark"></label><div class="grid two"><label>Package / service<select name="packageType"><option>Parcel delivery</option><option>Shop order</option><option>Food & essentials</option><option>Document delivery</option><option>Other</option></select></label><label>Preferred pickup time<input name="pickupTime" type="datetime-local"></label></div><label>Extra instructions<textarea name="instructions" placeholder="Landmark, fragile item, special instructions..."></textarea></label><button class="btn primary" type="submit">Create order & open WhatsApp</button><p class="small">Your order gets a KPD Order ID. WhatsApp opens with the complete request so KPD can confirm the final quote.</p><div id="orderResult" class="result hidden"></div></form><div class="card quote"><div class="icon">₹</div><h3>Distance-based pricing</h3><p>KPD does not publish a fixed delivery-rate card. Charges can change with distance, route, package and service requirements.</p><ul><li>Send the route</li><li>KPD checks the delivery details</li><li>Get the actual quote</li><li>Confirm before delivery</li></ul><a class="text-link" href="#contact">Need a quote? Contact KPD →</a></div></div></section>
+<section class="section dark" id="services"><div class="section-head"><span class="eyebrow">02 • SERVICES</span><h2>One delivery service, multiple needs.</h2></div><div class="service-grid"><article><b>📦</b><h3>Parcel delivery</h3><p>Local pickup and doorstep delivery for packages.</p></article><article><b>🛍️</b><h3>Shop orders</h3><p>Move purchases from shops to customers.</p></article><article><b>🍱</b><h3>Food & essentials</h3><p>Local delivery for food and everyday essentials.</p></article><article><b>📄</b><h3>Documents</h3><p>Fast point-to-point document delivery.</p></article></div></section>
+<section class="section" id="how"><div class="section-head"><span class="eyebrow">03 • HOW IT WORKS</span><h2>Simple from request to doorstep.</h2></div><div class="timeline"><div><strong>01</strong><h3>Send details</h3><p>Pickup, drop, package and preferred time.</p></div><div><strong>02</strong><h3>Get a quote</h3><p>KPD confirms the route-based delivery charge.</p></div><div><strong>03</strong><h3>Confirm</h3><p>Approve the quote and delivery timing.</p></div><div><strong>04</strong><h3>Delivered</h3><p>Track the order status and receive the parcel.</p></div></div></section>
+<section class="section dark" id="partners"><div class="partner"><div><span class="eyebrow">04 • BUSINESS PARTNERSHIP</span><h2>Need a delivery partner?</h2><p>Restaurants, shops and online sellers can use KPD for local order fulfilment and customer deliveries.</p><div class="partner-pills"><span>Restaurants</span><span>Retail shops</span><span>Online sellers</span></div></div><a class="btn primary" id="partnerWa" href="#">Partner with KPD</a></div></section>
+<section class="section" id="track"><div class="section-head"><span class="eyebrow">05 • TRACK</span><h2>Track an order</h2><p>Enter the Order ID you receive after booking.</p></div><div class="trackbox card"><input id="trackId" placeholder="Example: KPD-2026-A1B2C3"><button class="btn primary" onclick="trackOrder()">Check status</button><div id="trackResult"></div></div></section>
+<section class="section dark" id="account"><div class="section-head"><span class="eyebrow">06 • ACCOUNT</span><h2>Customer account</h2><p>Create an account to see your KPD orders in one place.</p></div><div class="grid two"><form class="card form" id="registerForm"><h3>Create account</h3><input name="name" required placeholder="Name"><input name="phone" required placeholder="Phone"><input name="password" required type="password" minlength="6" placeholder="Password (6+ characters)"><button class="btn primary">Create account</button></form><form class="card form" id="loginForm"><h3>Sign in</h3><input name="phone" required placeholder="Phone"><input name="password" required type="password" placeholder="Password"><button class="btn secondary">Sign in</button><div id="accountResult"></div></form></div><div id="ordersArea" class="card hidden"></div></section>
+<section class="section" id="contact"><div class="contact card"><div><span class="eyebrow">07 • CONTACT</span><h2>Talk to KPD</h2><p>For quotes, urgent deliveries, partnerships or help.</p></div><div class="contact-actions"><a class="btn primary" id="contactWa" href="#">WhatsApp 8416005303</a><a class="btn secondary" href="tel:+918416005303">Call KPD</a></div></div></section>
+</main><footer><div class="brand"><span>KPD</span><b>DELIVERY</b></div><p>Fast delivery. Handled with care.</p><p class="small">V2 • Mobile-first delivery platform</p></footer>
+<script src="/app.js"></script></body></html>
